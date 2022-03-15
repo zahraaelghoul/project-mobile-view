@@ -62,6 +62,45 @@
 
         </div>
 
+        <form action = "https://formspree.io/f/xnqwzdpb" method = "POST">
+            <fieldset>
+
+                <legend> what are your favorite mitski songs? </legend>
+
+                <label for = "name_id"> your name </label>
+                <input type = "text" placeholder = "Enter Your Name" name = "name" id = "name_id" required>
+
+                <label for = "email_id" required> your email </label>
+                <input type = "email" name = "email" id = "email_id">
+
+                <label for = "songs_id" required> select your favorite lyric(s) </label>
+                    <label for = "song1_id"> first love / late spring </label>
+                    <input type = "checkbox" name = "song1" id = "song1_id">
+                    <label for = "song2_id"> your best american girl </label>
+                    <input type = "checkbox" name = "song2" id = "song2_id">
+                    <label for = "song3_id"> a loving feeling </label>
+                    <input type = "checkbox" name = "song3" id = "song3_id">
+                    <label for = "song4_id"> square </label>
+                    <input type = "checkbox" name = "song4" id = "song4_id">
+                    <label for = "song5_id"> i guess </label>
+                    <input type = "checkbox" name = "song5" id = "song5_id">
+                    <label for = "song6_id"> there's nothing left for you </label>
+                    <input type = "checkbox" name = "song6" id = "song6_id">
+
+                <!-- <label for = "num_id" required> Your Phone Number </label>
+                <input type = "tel" name = "number" id = "num_id">
+                <div><span>Format: 123-456-7890</span></div> -->
+
+                <label for = "message_id"> leave mitski a message if you want to </label>
+                <textarea id = "message_id"></textarea>
+
+                <!-- <input type = "checkbox" name = "remember" id = "remember_id"> 
+                <label for = "remember_id"> Remember me </label> -->
+
+                <input type = "submit" value = "send to mitski">
+            </fieldset>
+        </form>
+
     </main>
 
     <footer>

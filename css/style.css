@@ -91,6 +91,13 @@ nav li:hover {
     background-color: #583101;
 }
 
+input, textarea {
+    display: block;
+}
+
+input {
+
+}
 /* nav li a:visited {
     color: #FFE8D6; 
 } */
