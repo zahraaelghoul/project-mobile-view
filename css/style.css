@@ -87,6 +87,10 @@ nav li {
     color: #FFE8D6;
 }
 
+nav li a {
+    color: #6B705C;
+}
+
 nav li a:visited {
     color: #6B705C;
 }
